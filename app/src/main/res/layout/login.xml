@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="182dp"
+        android:layout_height="45dp"
+        android:text="Giriş"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Kullanıcı"
+        android:inputType="number"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="173dp"
+        android:layout_height="36dp"
+        android:text="Kaydol"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="134dp"
+        tools:src="@drawable/harran" />
+</android.support.constraint.ConstraintLayout>
