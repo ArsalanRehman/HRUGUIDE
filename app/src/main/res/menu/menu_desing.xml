@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/haberler"
+        android:title="haberler"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/duyuru"
+        android:title="duyuru"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/obs_giris"
+        android:title="giris"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/akademikPersonel"
+        android:title="akademik personel"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mezun_ogrenci"
+        android:title="mezun öğrenci"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/fakulteler"
+        android:title="fakulte"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/kutuphane"
+        android:title="kutuphane"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/yemekhane"
+        android:title="yemekhane"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/iletisim"
+        android:title="iletisim"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/harita"
+        android:title="harita"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/etkinlik"
+        android:title="etkinlik"
+        app:showAsAction="never"
+        />
+
+
+
+
+</menu>
